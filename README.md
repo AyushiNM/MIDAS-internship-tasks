@@ -24,5 +24,4 @@
 * To measure the performance for each class, I have used weighted precison, recall and f1 score (which can be found in classification reports in each notebook), and to measure overall performance I have used accuracy.
 * It can be observed that SGDClassifier gave the best accuracy. 
 * XGBoost and RoBERTa come second. However, because of the complexity and training time of transformer models, RoBERTa would not be a very good choice for this task, especially when we're getting comparable results with simpler models. 
-* It can also be seen that LSTMs don't have the best performance, which could be improved further by hyperparameter tuning and using more data.
-* To improve the performance of the models we could try to use other features along with product description, like product name, which could also be a good indicator of product category.
+* To improve the performance of the models we could try hyperparameter tuning and using more data. We could also try to use other features along with product description, like product name, which could also be a good indicator of product category.
