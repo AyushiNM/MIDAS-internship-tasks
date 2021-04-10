@@ -13,3 +13,9 @@ Here, I have cleaned and pre-processed the initially provided data, and created 
     (3) removed all the special characters and extra space
 
 * Then, I shuffled the data and stored the cleaned values and primary category in a new dataset.
+
+References -
+* https://www.geeksforgeeks.org/pandas-how-to-shuffle-a-dataframe-rows/
+* https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reset_index.html
+* https://blog.usejournal.com/why-and-how-to-make-a-requirements-txt-f329c685181e
+* https://www.analyticsvidhya.com/blog/2019/04/predicting-movie-genres-nlp-multi-label-classification/
