@@ -1,6 +1,9 @@
-Here, I tried various Machine Learning models on the data to predict the product category.
+Here I have tried various Machine Learning models on the data to predict the product category.
+
+* I used the clean version of the dataset that can be found [here](https://drive.google.com/file/d/1uM5Kr_CieByJkZiSxVeKPhSpWV-aUYTY/view?usp=sharing)
+* The dataset has 18 categories. 
 * Initially, I observed that the product description had a lot of stop words which were adding noise to the data, so I removed them.
-* Then, I divided the data into train and test sets and used Tfidf Vectorizer to vectorize the data.
+* Then, I divided the data into train and test sets and used Tfidf Vectorizer to vectorize the data. Vectorization is necessary to convert the text features into numerical ones so that they can be used by the models.
 * I used ML models on the data,
     1) Multinomial Naive Bayes -> accuracy - 0.84
     2) RandomForest -> accuracy - 0.93
