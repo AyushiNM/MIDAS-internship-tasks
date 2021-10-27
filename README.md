@@ -1,4 +1,4 @@
-# MIDAS-internship-tasks
+# MIDAS-internship-tasks (Predict the category using description)
 
 **Data Pre-processing ->** https://github.com/AyushiNM/MIDAS-internship-tasks/tree/main/Data%20Pre-processing
 
